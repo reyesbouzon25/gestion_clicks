@@ -8,12 +8,14 @@
   <h1>Contador de Clicks</h1>
   <button id="btn">Haz clic</button>
   <p id="contador">0</p>
+  <p id="hora"></p>
 
   <script>
     let contador = 0;
     document.getElementById("btn").addEventListener("click", () => {
       contador++;
       document.getElementById("contador").innerText = contador;
+      document.getElementById("hora").innerText = "Ultimo click: " + new Date().toLocaleTimeString();
     });
   </script>
 </body>
