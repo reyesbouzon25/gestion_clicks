@@ -9,12 +9,14 @@
   <button id="btn">Haz clic</button>
   <p id="contador">0</p>
   <button id="reiniciar">Reiniciar</button>
+  <p id="hora"></p>
 
   <script>
     let contador = 0;
     document.getElementById("btn").addEventListener("click", () => {
       contador++;
       document.getElementById("contador").innerText = contador;
+      document.getElementById("hora").innerText = "Ultimo click: " + new Date().toLocaleTimeString();
     });
     document.getElementById("reiniciar").addEventListener("click", () => {
       contador = 0;
