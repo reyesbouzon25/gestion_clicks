@@ -9,3 +9,5 @@ Practica de DDCCNN del grupo formado por Alex, Sarah, Jorge y Loudna
 \#Loubna Mechnane Ibriss - Desarrollada B - Reiniciar clicks 
 
 \#***Jorge Calvo - Desarrollador C - Hora-del-click***
+
+\#\*\*\*Sarah Sebastian - Desarrollador D - CSS\*\*\*
